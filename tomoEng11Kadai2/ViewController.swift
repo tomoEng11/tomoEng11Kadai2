@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         textField1.keyboardType = .numberPad
         textField2.keyboardType = .numberPad
     }
-    
     @IBAction func caluculateButtonPressed(_ sender: UIButton) {
 
         if let num1 = Double(textField1.text!), let num2 = Double(textField2.text!) {
@@ -48,7 +47,4 @@ class ViewController: UIViewController {
 
         selectedSegmentNumber = calculateSegment.selectedSegmentIndex
     }
-
-
 }
-
